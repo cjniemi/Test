@@ -1,4 +1,13 @@
-test
-test2
-test 3
-test 4
+provider "aws" {
+  profile                 = "Chad Test"
+  shared_credentials_file = "~/.aws/credentials"
+  region                  = "eu-west-1"
+}
+
+resource "aws_s3_bucket" "resourcenamechadniemi"{
+  bucket = "bucketname2323232323gg"
+
+  tags = {
+    Name = "Bucket_Tag232423232"
+  }
+}
