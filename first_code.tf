@@ -1,6 +1,6 @@
 provider "aws" {
   profile                 = "Chad Test"
-  shared_credentials_file = "~/.aws/credentials"
+  shared_credentials_file = ["C:/Users/Cniemi/.aws/credentials"]
   region                  = "eu-west-1"
 }
 
