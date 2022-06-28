@@ -17,3 +17,4 @@ resource "aws_s3_bucket" "resourcenamechadniemi"{
 #test merge 4
 #test merge 5
 # test merge 6
+# test merge 7
