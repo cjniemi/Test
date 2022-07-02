@@ -4,18 +4,7 @@ provider "aws" {
   region                  = "us-east-1"
 }
 
-resource "aws_s3_bucket" "resourcenamechadniemi"{
-  bucket = "bucketname2323232323gg"
-
-  tags = {
-    Name = "Bucket_Tag232423232"
-  }
+resource "aws_instance" "myec2" {
+   ami = "ami-082b5a644766e0e6f"
+   instance_type = "t2.micro"
 }
-# test branch merge
-#test merge 2
-#test merge 3
-#test merge 4
-#test merge 5
-# test merge 6
-# test merge 7
-# test merge 8
